@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:interview_design2/product_description.dart';
 import 'home.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
           textTheme:
               GoogleFonts.robotoTextTheme(Theme.of(context).textTheme)),
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: const ProductDescription(),
     );
   }
 }
